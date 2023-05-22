@@ -1,0 +1,53 @@
+@import './styles/globals';
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: $Font-1;
+  background-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  color: $Font-color-1;
+  font-size: 2rem;
+  background-color: white;
+}
+
+
+.dashboard {
+  min-height: 100vh;
+}
+
+.dashboard-title {
+  font-size: 3.5rem;
+}
+
+.dashboard p {
+  color: black;
+  opacity: 0.4;
+}
+
+.dashboard-image {
+  max-height: 50rem;
+  overflow-y: hidden;
+}
+
+.dashboard-input {
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+.dashboard-button {
+  font-size: 2rem;
+  min-height: 3rem;
+}
+.dashboard-input::placeholder {
+  opacity: 0.5;
+}

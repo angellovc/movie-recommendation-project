@@ -1,0 +1,12 @@
+$Color-1: #1A281F;
+$Color-2: #42858C;
+$Color-3: #B8D3D1;
+
+$Font-color-1: rgb(206, 206, 206);
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    src: local('Oswald'), url(./src/assets/fonts/Oswald.ttf) format('truetype');
+}
+$Font-1: 'Oswald'
